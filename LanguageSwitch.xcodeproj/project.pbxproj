@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0787F0002216D37600AD1711 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0787EFFF2216D37600AD1711 /* AppDelegate.m */; };
+		0787F0032216D37600AD1711 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0787F0022216D37600AD1711 /* ViewController.m */; };
+		0787F0062216D37600AD1711 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0787F0042216D37600AD1711 /* Main.storyboard */; };
+		0787F0082216D37800AD1711 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0787F0072216D37800AD1711 /* Assets.xcassets */; };
+		0787F00B2216D37800AD1711 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0787F0092216D37800AD1711 /* LaunchScreen.storyboard */; };
+		0787F00E2216D37800AD1711 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0787F00D2216D37800AD1711 /* main.m */; };
+		0787F0182216D37800AD1711 /* LanguageSwitchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0787F0172216D37800AD1711 /* LanguageSwitchTests.m */; };
+		0787F0232216D37800AD1711 /* LanguageSwitchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0787F0222216D37800AD1711 /* LanguageSwitchUITests.m */; };
+		0787F0332216D40100AD1711 /* CSLanguageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0787F0322216D40100AD1711 /* CSLanguageManager.m */; };
+		0787F040221AA6DD00AD1711 /* EnglishStrings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0787F03E221AA6DD00AD1711 /* EnglishStrings.plist */; };
+		0787F041221AA6DE00AD1711 /* ChineseStrings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0787F03F221AA6DD00AD1711 /* ChineseStrings.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0787F0142216D37800AD1711 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0787EFF32216D37600AD1711 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0787EFFA2216D37600AD1711;
+			remoteInfo = LanguageSwitch;
+		};
+		0787F01F2216D37800AD1711 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0787EFF32216D37600AD1711 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0787EFFA2216D37600AD1711;
+			remoteInfo = LanguageSwitch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0787EFFB2216D37600AD1711 /* LanguageSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LanguageSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0787EFFE2216D37600AD1711 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0787EFFF2216D37600AD1711 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0787F0012216D37600AD1711 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0787F0022216D37600AD1711 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0787F0052216D37600AD1711 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0787F0072216D37800AD1711 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0787F00A2216D37800AD1711 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0787F00C2216D37800AD1711 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0787F00D2216D37800AD1711 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0787F0132216D37800AD1711 /* LanguageSwitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LanguageSwitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0787F0172216D37800AD1711 /* LanguageSwitchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LanguageSwitchTests.m; sourceTree = "<group>"; };
+		0787F0192216D37800AD1711 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0787F01E2216D37800AD1711 /* LanguageSwitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LanguageSwitchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0787F0222216D37800AD1711 /* LanguageSwitchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LanguageSwitchUITests.m; sourceTree = "<group>"; };
+		0787F0242216D37800AD1711 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0787F0312216D40100AD1711 /* CSLanguageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSLanguageManager.h; sourceTree = "<group>"; };
+		0787F0322216D40100AD1711 /* CSLanguageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSLanguageManager.m; sourceTree = "<group>"; };
+		0787F03E221AA6DD00AD1711 /* EnglishStrings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = EnglishStrings.plist; path = LanguageSwitch/EnglishStrings.plist; sourceTree = SOURCE_ROOT; };
+		0787F03F221AA6DD00AD1711 /* ChineseStrings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ChineseStrings.plist; path = LanguageSwitch/ChineseStrings.plist; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0787EFF82216D37600AD1711 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0787F0102216D37800AD1711 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0787F01B2216D37800AD1711 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0787EFF22216D37600AD1711 = {
+			isa = PBXGroup;
+			children = (
+				0787EFFD2216D37600AD1711 /* LanguageSwitch */,
+				0787F0162216D37800AD1711 /* LanguageSwitchTests */,
+				0787F0212216D37800AD1711 /* LanguageSwitchUITests */,
+				0787EFFC2216D37600AD1711 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0787EFFC2216D37600AD1711 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0787EFFB2216D37600AD1711 /* LanguageSwitch.app */,
+				0787F0132216D37800AD1711 /* LanguageSwitchTests.xctest */,
+				0787F01E2216D37800AD1711 /* LanguageSwitchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0787EFFD2216D37600AD1711 /* LanguageSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				0787F0302216D40100AD1711 /* Manager */,
+				0787EFFE2216D37600AD1711 /* AppDelegate.h */,
+				0787EFFF2216D37600AD1711 /* AppDelegate.m */,
+				0787F0012216D37600AD1711 /* ViewController.h */,
+				0787F0022216D37600AD1711 /* ViewController.m */,
+				0787F0042216D37600AD1711 /* Main.storyboard */,
+				0787F0072216D37800AD1711 /* Assets.xcassets */,
+				0787F0092216D37800AD1711 /* LaunchScreen.storyboard */,
+				0787F00C2216D37800AD1711 /* Info.plist */,
+				0787F00D2216D37800AD1711 /* main.m */,
+			);
+			path = LanguageSwitch;
+			sourceTree = "<group>";
+		};
+		0787F0162216D37800AD1711 /* LanguageSwitchTests */ = {
+			isa = PBXGroup;
+			children = (
+				0787F0172216D37800AD1711 /* LanguageSwitchTests.m */,
+				0787F0192216D37800AD1711 /* Info.plist */,
+			);
+			path = LanguageSwitchTests;
+			sourceTree = "<group>";
+		};
+		0787F0212216D37800AD1711 /* LanguageSwitchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0787F0222216D37800AD1711 /* LanguageSwitchUITests.m */,
+				0787F0242216D37800AD1711 /* Info.plist */,
+			);
+			path = LanguageSwitchUITests;
+			sourceTree = "<group>";
+		};
+		0787F0302216D40100AD1711 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				0787F0312216D40100AD1711 /* CSLanguageManager.h */,
+				0787F0322216D40100AD1711 /* CSLanguageManager.m */,
+				0787F03F221AA6DD00AD1711 /* ChineseStrings.plist */,
+				0787F03E221AA6DD00AD1711 /* EnglishStrings.plist */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0787EFFA2216D37600AD1711 /* LanguageSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0787F0272216D37800AD1711 /* Build configuration list for PBXNativeTarget "LanguageSwitch" */;
+			buildPhases = (
+				0787EFF72216D37600AD1711 /* Sources */,
+				0787EFF82216D37600AD1711 /* Frameworks */,
+				0787EFF92216D37600AD1711 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LanguageSwitch;
+			productName = LanguageSwitch;
+			productReference = 0787EFFB2216D37600AD1711 /* LanguageSwitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0787F0122216D37800AD1711 /* LanguageSwitchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0787F02A2216D37800AD1711 /* Build configuration list for PBXNativeTarget "LanguageSwitchTests" */;
+			buildPhases = (
+				0787F00F2216D37800AD1711 /* Sources */,
+				0787F0102216D37800AD1711 /* Frameworks */,
+				0787F0112216D37800AD1711 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0787F0152216D37800AD1711 /* PBXTargetDependency */,
+			);
+			name = LanguageSwitchTests;
+			productName = LanguageSwitchTests;
+			productReference = 0787F0132216D37800AD1711 /* LanguageSwitchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0787F01D2216D37800AD1711 /* LanguageSwitchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0787F02D2216D37800AD1711 /* Build configuration list for PBXNativeTarget "LanguageSwitchUITests" */;
+			buildPhases = (
+				0787F01A2216D37800AD1711 /* Sources */,
+				0787F01B2216D37800AD1711 /* Frameworks */,
+				0787F01C2216D37800AD1711 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0787F0202216D37800AD1711 /* PBXTargetDependency */,
+			);
+			name = LanguageSwitchUITests;
+			productName = LanguageSwitchUITests;
+			productReference = 0787F01E2216D37800AD1711 /* LanguageSwitchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0787EFF32216D37600AD1711 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = bingo;
+				TargetAttributes = {
+					0787EFFA2216D37600AD1711 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					0787F0122216D37800AD1711 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 0787EFFA2216D37600AD1711;
+					};
+					0787F01D2216D37800AD1711 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 0787EFFA2216D37600AD1711;
+					};
+				};
+			};
+			buildConfigurationList = 0787EFF62216D37600AD1711 /* Build configuration list for PBXProject "LanguageSwitch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0787EFF22216D37600AD1711;
+			productRefGroup = 0787EFFC2216D37600AD1711 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0787EFFA2216D37600AD1711 /* LanguageSwitch */,
+				0787F0122216D37800AD1711 /* LanguageSwitchTests */,
+				0787F01D2216D37800AD1711 /* LanguageSwitchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0787EFF92216D37600AD1711 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0787F00B2216D37800AD1711 /* LaunchScreen.storyboard in Resources */,
+				0787F0082216D37800AD1711 /* Assets.xcassets in Resources */,
+				0787F040221AA6DD00AD1711 /* EnglishStrings.plist in Resources */,
+				0787F0062216D37600AD1711 /* Main.storyboard in Resources */,
+				0787F041221AA6DE00AD1711 /* ChineseStrings.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0787F0112216D37800AD1711 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0787F01C2216D37800AD1711 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0787EFF72216D37600AD1711 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0787F0032216D37600AD1711 /* ViewController.m in Sources */,
+				0787F00E2216D37800AD1711 /* main.m in Sources */,
+				0787F0002216D37600AD1711 /* AppDelegate.m in Sources */,
+				0787F0332216D40100AD1711 /* CSLanguageManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0787F00F2216D37800AD1711 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0787F0182216D37800AD1711 /* LanguageSwitchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0787F01A2216D37800AD1711 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0787F0232216D37800AD1711 /* LanguageSwitchUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0787F0152216D37800AD1711 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0787EFFA2216D37600AD1711 /* LanguageSwitch */;
+			targetProxy = 0787F0142216D37800AD1711 /* PBXContainerItemProxy */;
+		};
+		0787F0202216D37800AD1711 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0787EFFA2216D37600AD1711 /* LanguageSwitch */;
+			targetProxy = 0787F01F2216D37800AD1711 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0787F0042216D37600AD1711 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0787F0052216D37600AD1711 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0787F0092216D37800AD1711 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0787F00A2216D37800AD1711 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0787F0252216D37800AD1711 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0787F0262216D37800AD1711 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0787F0282216D37800AD1711 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KXSR8RBE8V;
+				INFOPLIST_FILE = LanguageSwitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.languageswitch.bingo.LanguageSwitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0787F0292216D37800AD1711 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KXSR8RBE8V;
+				INFOPLIST_FILE = LanguageSwitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.languageswitch.bingo.LanguageSwitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0787F02B2216D37800AD1711 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LanguageSwitchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.languageswitch.bingo.LanguageSwitchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LanguageSwitch.app/LanguageSwitch";
+			};
+			name = Debug;
+		};
+		0787F02C2216D37800AD1711 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LanguageSwitchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.languageswitch.bingo.LanguageSwitchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LanguageSwitch.app/LanguageSwitch";
+			};
+			name = Release;
+		};
+		0787F02E2216D37800AD1711 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LanguageSwitchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.languageswitch.bingo.LanguageSwitchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LanguageSwitch;
+			};
+			name = Debug;
+		};
+		0787F02F2216D37800AD1711 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LanguageSwitchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.languageswitch.bingo.LanguageSwitchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LanguageSwitch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0787EFF62216D37600AD1711 /* Build configuration list for PBXProject "LanguageSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0787F0252216D37800AD1711 /* Debug */,
+				0787F0262216D37800AD1711 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0787F0272216D37800AD1711 /* Build configuration list for PBXNativeTarget "LanguageSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0787F0282216D37800AD1711 /* Debug */,
+				0787F0292216D37800AD1711 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0787F02A2216D37800AD1711 /* Build configuration list for PBXNativeTarget "LanguageSwitchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0787F02B2216D37800AD1711 /* Debug */,
+				0787F02C2216D37800AD1711 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0787F02D2216D37800AD1711 /* Build configuration list for PBXNativeTarget "LanguageSwitchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0787F02E2216D37800AD1711 /* Debug */,
+				0787F02F2216D37800AD1711 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0787EFF32216D37600AD1711 /* Project object */;
+}
