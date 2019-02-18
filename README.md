@@ -1,0 +1,2 @@
+# LanguageSwitchDemo
+使用Plist实现APP内多语言切换demo
